@@ -7,6 +7,18 @@ user: AID_SYSTEM
 group: AID_SYSTEM
 caps: 0
 
+[vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti]
+mode: 0755
+user: AID_BLUETOOTH
+group: AID_BLUETOOTH
+caps: BLOCK_SUSPEND NET_ADMIN
+
+[system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti]
+mode: 0755
+user: AID_SYSTEM
+group: AID_SYSTEM
+caps: BLOCK_SUSPEND NET_ADMIN
+
 [dsp/]
 mode: 0771
 user: AID_MEDIA
